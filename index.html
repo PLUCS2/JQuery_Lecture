@@ -13,18 +13,16 @@
     <!-- must be loaded before any scripts using jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    <!-- Script tag for our demo -->
-    <script type="text/javascript" src="./jquery_demo.js"></script>
-
+    
 </head>
 <body>
     <h1> jQuery </h1>
-
+    
     <article>
         <section id="section-one">
-
+            
             <h2>Favorite Things</h2>
-
+            
             <ul>
                 <li class="not-favorite">
                     Raindrops on roses
@@ -36,27 +34,30 @@
                     Brown paper packages tied up with strings
                 </li>
             </ul>
-
+            
             <button id="favorite-all" class="button">Favorite all!</button>
-
+            
         </section>
-
+        
         <section class="section-two">
-
+            
             <h2>Add a Favorite Thing</h2>
-
+            
             <form class="favorite-adder" action="index.html" method="post">
                 <input type="text" name="favorite" value="" placeholder="Add a favorite thing">
                 <input type="submit" name="" value="Add Favorite">
             </form>
-
+            
         </section>
-
+        
     </article>
-
+    
     <img style="display:none" id="themed-gif" src="https://media2.giphy.com/media/aiN7GUGvGH648/source.gif" >
-
+    
     <button class="button" id="themed-gif-button">Show well themed gif</button>
     
 </body>
+
+    <!-- Script tag for our demo -->
+    <script type="text/javascript" src="./jquery_demo.js"></script>
 </html>
