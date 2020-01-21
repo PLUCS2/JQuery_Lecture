@@ -16,5 +16,23 @@ section {
 li {
     padding: 8px; 
     border-radius: 3px;
+    margin: 15px; 
 }
 
+.not-favorite {
+    background-color: pink;
+    border: 5px solid darkred;  
+}
+
+.favorite {
+    background-color: lightgreen; 
+    border: 5px solid darkgreen; 
+}
+
+.button {
+    margin: 10px; 
+    padding: 10px; 
+    background-color: lavender;
+    border: 3px solid purple; 
+    cursor: pointer; 
+}
