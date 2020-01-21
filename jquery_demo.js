@@ -36,3 +36,18 @@
 //Event Listener
 // $('.favorite-adder').on('submit', addToFavorites);
 
+// const applyListeners = () => {
+//     $('.favorite-adder').on('submit', addToFavorites);
+//     $('ul').on('click', 'li', toggleLi);
+//     $('#complete-all').on('click', e => {
+//         $('ul > li').removeClass('not-favorite');
+//         $('ul > li').addClass('favorite');
+//     });
+
+//     $('#themed-gif-button').on('click', () => {
+//         $('#themed-gif').show(200);
+//     });
+// };
+
+// $(applyListeners); 
+
