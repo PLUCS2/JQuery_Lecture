@@ -18,9 +18,42 @@
     <h1> jQuery </h1>
 
     <article>
+        <section id="section-one">
 
-        
+            <h2>Favorite Things</h2>
+
+            <ul>
+                <li>
+                    Raindrops on roses
+                </li>
+                <li>
+                    Whiskers on kittens
+                </li>
+                <li>
+                    Brown paper packages tied up with strings
+                </li>
+            </ul>
+
+            <button id="favorite-all" class="button">Favorite all!</button>
+
+        </section>
+
+        <section class="section-two">
+
+            <h2>Add a Favorite Thing</h2>
+
+            <form class="favorite-adder" action="index.html" method="post">
+                <input type="text" name="favorite" value="" placeholder="Add a favorite thing">
+                <input type="submit" name="" value="Add Favorite">
+            </form>
+
+        </section>
+
     </article>
+    
+    <img style="display:none" id="themed-gif" src="https://media2.giphy.com/media/aiN7GUGvGH648/source.gif" >
+
+    <button class="button" id="themed-gif-button">Show well themed gif</button>
     
 </body>
 </html>
