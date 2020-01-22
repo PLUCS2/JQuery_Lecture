@@ -39,7 +39,7 @@
 // const applyListeners = () => {
 //     $('.favorite-adder').on('submit', addToFavorites);
 //     $('ul').on('click', 'li', toggleLi);
-//     $('#complete-all').on('click', e => {
+//     $('#favorite-all').on('click', e => {
 //         $('ul > li').removeClass('not-favorite');
 //         $('ul > li').addClass('favorite');
 //     });
@@ -49,5 +49,6 @@
 //     });
 // };
 
+// applyListeners(); 
 // $(applyListeners); 
 
